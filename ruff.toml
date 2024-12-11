@@ -1,0 +1,10 @@
+target-version = "py311"
+line-length = 120
+exclude = [".venv", "archived_milestones"]
+
+[format]
+# Like Black, use double quotes for strings.
+quote-style = "single"
+
+[lint]
+ignore = ["E731", "E701"]
